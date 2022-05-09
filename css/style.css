@@ -841,6 +841,11 @@ img {
   cursor: pointer;
 }
 
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  fill: var(--active-link-color);
+}
+
 .modal-icon {
   color: #000;
 }
@@ -880,6 +885,7 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: none;
+  cursor: pointer;
   transition: var(--time-animation) var(--timing-animation);
 }
 
