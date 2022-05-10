@@ -839,6 +839,7 @@ img {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: var(--time-animation) var(--timing-animation);
 }
 
 .modal-close-btn:hover,
